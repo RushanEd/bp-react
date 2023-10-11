@@ -6,8 +6,7 @@
   "scripts": {
     "i_backend": "cd backend && npm i",
     "i_frontend": "cd frontend && npm i",
-    "i_root": "npm i",
-    "install": "npm run i_backend && npm run i_frontend && npm run i_root",
+    "install": "npm run i_backend && npm run i_frontend",
     "backend": "cd backend && npm start",
     "frontend": "cd frontend && npm run dev",
     "start": "concurrently \"npm run frontend\" \"npm run backend\" "
